@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}.header{
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo-img {
+display: block;
+width: 58px;
+height: 58px;
+margin: 0 15px 0 0;
+}
+.logo-title {
+    color: #202020;
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav>li{
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.nav>li>a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: 202020;
+}
+.nav-btn {
+    background-color: #5528FF;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+}
+.nav-btn:haver {
+    transition: 1ms;
+    background-color: #fff;
+    color: #5528FF;
+    border: 1px solid #5528FF;
+}
+.main {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto; 
+    font-family: "ubuntu";
+    padding-top: 100px;
+}
+.main-title {
+       font-size: 56px;
+    font-weight: 700;
+    line-height: 65. 49px;
+    padding-bottom: 35px;
+}
+.main-text {
+    max-width: 740px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 51. 48px;
+    padding-bottom: 70px;
+}
+.main-btn {
+    font-family: "ubuntu";
+    background-color: #5528FF;
+    padding: 20px 45px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    transition: 0.5s;
+}
+.main-btn:hover {
+    transition: 0.5s;
+    background-color: #fff;
+    color: #5528FF;
+    border: 1px solid #5528FF;
+}
+.page {
+    padding: 50px 0;
+    width: 100%;
+    max-width: 1180pt;
+    color: #c2c2c2;
+    margin: 0 auto;
+}
+.page-top {
+    border-top: 2px solid #c2c2c2;
+    margin-top: 60px;
+}
+.page-title {
+    padding: 5px 10px;
+    top: - 60px;
+    position: relative;
+    font-size: 14px;
+    color: #c2c2c2;
+    font-family: "Ubuntu";
+    background-color: #fff ;
+}
+.servise {
+
+}
+.bottom-servises {
+    justify-content: space-between;
+
+}
+
+.servise-img {
+
+}
